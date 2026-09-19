@@ -5,14 +5,14 @@
     {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@v0.7.10/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/stitch-design-plugin/releases/tag/v0.7.10"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@v0.7.11/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/stitch-design-plugin/releases/tag/v0.7.11"
     },
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.3/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/processon-design-plugin/releases/tag/v0.2.3"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.4/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/processon-design-plugin/releases/tag/v0.2.4"
     },
     {
       "id": "codeguard",
@@ -23,8 +23,8 @@
     {
       "id": "bt-linux-panel",
       "displayName": "宝塔 Linux 面板",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.0.3/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/bt-linux-panel-plugin/releases/tag/v1.0.3"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.0.4/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/bt-linux-panel-plugin/releases/tag/v1.0.4"
     }
   ]
 }
