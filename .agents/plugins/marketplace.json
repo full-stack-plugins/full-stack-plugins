@@ -81,7 +81,7 @@
         "authentication": "ON_USE"
       },
       "category": "Productivity",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@main/assets/official-logo.png",
       "interface": {

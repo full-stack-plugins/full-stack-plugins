@@ -66,7 +66,7 @@
       "displayName": "宝塔 Linux 面板",
       "repository": "full-stack-plugins/bt-linux-panel-plugin",
       "localDirectory": "bt-linux-panel-plugin",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
       "shortDescription": "Operate Baota Linux panel via MCP",
       "category": "Productivity",
