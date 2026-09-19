@@ -18,7 +18,7 @@
         "design",
         "design-to-code"
       ],
-      "icon": "https://raw.githubusercontent.com/full-stack-plugins/partme-stitch-plugin/main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-stitch-plugin@main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -29,14 +29,14 @@
         "ref": "main"
       },
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "category": "Design Tools",
       "tags": [
         "processon",
         "diagram",
         "mind-map"
       ],
-      "icon": "https://raw.githubusercontent.com/full-stack-plugins/partme-processon-plugin/main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-processon-plugin@main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -62,7 +62,7 @@
         "ruff",
         "pre-commit"
       ],
-      "icon": "https://raw.githubusercontent.com/full-stack-plugins/partme-codeguard-plugin/main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-codeguard-plugin@main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -73,7 +73,7 @@
         "ref": "main"
       },
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Productivity",
       "tags": [
         "baota",
@@ -81,7 +81,7 @@
         "linux-ops",
         "mcp"
       ],
-      "icon": "https://raw.githubusercontent.com/full-stack-plugins/partme-bt-plugin/main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-bt-plugin@main/assets/official-logo.png",
       "strict": true
     }
   ]
