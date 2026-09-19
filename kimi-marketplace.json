@@ -5,26 +5,26 @@
     {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-stitch-plugin@main/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/partme-stitch-plugin"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@main/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/stitch-design-plugin"
     },
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-processon-plugin@main/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/partme-processon-plugin"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@main/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/processon-design-plugin"
     },
     {
       "id": "codeguard",
       "displayName": "代码规范守卫",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-codeguard-plugin@main/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/partme-codeguard-plugin"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@main/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/codeguard-plugin"
     },
     {
       "id": "bt-linux-panel",
       "displayName": "宝塔 Linux 面板",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-bt-plugin@main/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/partme-bt-plugin"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@main/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/bt-linux-panel-plugin"
     }
   ]
 }

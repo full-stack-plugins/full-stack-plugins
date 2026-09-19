@@ -47,7 +47,7 @@ This repository is the plugin-side counterpart of [Full Stack Skills](https://gi
 ### Codex
 
 ```bash
-codex plugin marketplace add partme-ai/full-stack-plugins
+codex plugin marketplace add full-stack-plugins/full-stack-plugins
 codex plugin add bt-linux-panel@full-stack-plugins
 codex plugin add codeguard@full-stack-plugins
 codex plugin add processon-design@full-stack-plugins
@@ -56,12 +56,12 @@ codex plugin add stitch-design@full-stack-plugins
 
 ### ZCode
 
-Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-ai/full-stack-plugins`, then install from the personal marketplace section.
+Open Settings → Plugins → Create → Add plugin marketplace, enter `full-stack-plugins/full-stack-plugins`, then install from the personal marketplace section.
 
 ### Kimi Code CLI
 
 ```text
-/plugins marketplace https://raw.githubusercontent.com/partme-ai/full-stack-plugins/main/kimi-marketplace.json
+/plugins marketplace https://raw.githubusercontent.com/full-stack-plugins/full-stack-plugins/main/kimi-marketplace.json
 ```
 
 ---
@@ -70,10 +70,10 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-a
 
 | Plugin | ID | Version | Focus | Repository |
 |--------|----|:-------:|-------|------------|
-| 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.1 | Operate the Baota Linux panel via MCP | [partme-bt-plugin](https://github.com/full-stack-plugins/partme-bt-plugin) |
-| 🔍 **Codeguard** | `codeguard` | 0.3.4 | Make AI-written code pass lint on the first try (multi-language rule sets) | [partme-codeguard-plugin](https://github.com/full-stack-plugins/partme-codeguard-plugin) |
-| 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.1 | Design polished, editable ProcessOn diagrams (flowcharts / architecture / mind maps) | [partme-processon-plugin](https://github.com/full-stack-plugins/partme-processon-plugin) |
-| 🎨 **Google Stitch Design** | `stitch-design` | 0.7.9 | Design and build with Google Stitch | [partme-stitch-plugin](https://github.com/full-stack-plugins/partme-stitch-plugin) |
+| 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.1 | Operate the Baota Linux panel via MCP | [partme-bt-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
+| 🔍 **Codeguard** | `codeguard` | 0.3.4 | Make AI-written code pass lint on the first try (multi-language rule sets) | [partme-codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.1 | Design polished, editable ProcessOn diagrams (flowcharts / architecture / mind maps) | [partme-processon-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
+| 🎨 **Google Stitch Design** | `stitch-design` | 0.7.9 | Design and build with Google Stitch | [partme-stitch-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
 
 ---
 

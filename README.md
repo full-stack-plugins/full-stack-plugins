@@ -47,7 +47,7 @@
 ### Codex
 
 ```bash
-codex plugin marketplace add partme-ai/full-stack-plugins
+codex plugin marketplace add full-stack-plugins/full-stack-plugins
 codex plugin add bt-linux-panel@full-stack-plugins
 codex plugin add codeguard@full-stack-plugins
 codex plugin add processon-design@full-stack-plugins
@@ -56,12 +56,12 @@ codex plugin add stitch-design@full-stack-plugins
 
 ### ZCode
 
-打开 设置 → 插件 → 创建 → 添加插件市场，输入 `partme-ai/full-stack-plugins`，然后在个人市场分区中安装。
+打开 设置 → 插件 → 创建 → 添加插件市场，输入 `full-stack-plugins/full-stack-plugins`，然后在个人市场分区中安装。
 
 ### Kimi Code CLI
 
 ```text
-/plugins marketplace https://raw.githubusercontent.com/partme-ai/full-stack-plugins/main/kimi-marketplace.json
+/plugins marketplace https://raw.githubusercontent.com/full-stack-plugins/full-stack-plugins/main/kimi-marketplace.json
 ```
 
 ---
@@ -70,10 +70,10 @@ codex plugin add stitch-design@full-stack-plugins
 
 | 插件 | ID | 版本 | 定位 | 仓库 |
 |------|----|:----:|------|------|
-| 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.1 | 通过 MCP 运维宝塔 Linux 面板 | [partme-bt-plugin](https://github.com/full-stack-plugins/partme-bt-plugin) |
-| 🔍 **代码规范守卫** | `codeguard` | 0.3.4 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [partme-codeguard-plugin](https://github.com/full-stack-plugins/partme-codeguard-plugin) |
-| 📊 **ProcessOn 图表** | `processon-design` | 0.2.1 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） | [partme-processon-plugin](https://github.com/full-stack-plugins/partme-processon-plugin) |
-| 🎨 **Google Stitch 设计** | `stitch-design` | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 | [partme-stitch-plugin](https://github.com/full-stack-plugins/partme-stitch-plugin) |
+| 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.1 | 通过 MCP 运维宝塔 Linux 面板 | [partme-bt-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
+| 🔍 **代码规范守卫** | `codeguard` | 0.3.4 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [partme-codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 📊 **ProcessOn 图表** | `processon-design` | 0.2.1 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） | [partme-processon-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
+| 🎨 **Google Stitch 设计** | `stitch-design` | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 | [partme-stitch-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
 
 ---
 

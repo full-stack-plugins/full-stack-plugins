@@ -7,7 +7,7 @@
       "name": "stitch-design",
       "source": {
         "source": "github",
-        "repo": "full-stack-plugins/partme-stitch-plugin",
+        "repo": "full-stack-plugins/stitch-design-plugin",
         "ref": "main"
       },
       "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server.",
@@ -18,14 +18,14 @@
         "design",
         "design-to-code"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-stitch-plugin@main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@main/assets/official-logo.png",
       "strict": true
     },
     {
       "name": "processon-design",
       "source": {
         "source": "github",
-        "repo": "full-stack-plugins/partme-processon-plugin",
+        "repo": "full-stack-plugins/processon-design-plugin",
         "ref": "main"
       },
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
@@ -36,14 +36,14 @@
         "diagram",
         "mind-map"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-processon-plugin@main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@main/assets/official-logo.png",
       "strict": true
     },
     {
       "name": "codeguard",
       "source": {
         "source": "github",
-        "repo": "full-stack-plugins/partme-codeguard-plugin",
+        "repo": "full-stack-plugins/codeguard-plugin",
         "ref": "main"
       },
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
@@ -62,14 +62,14 @@
         "ruff",
         "pre-commit"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-codeguard-plugin@main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@main/assets/official-logo.png",
       "strict": true
     },
     {
       "name": "bt-linux-panel",
       "source": {
         "source": "github",
-        "repo": "full-stack-plugins/partme-bt-plugin",
+        "repo": "full-stack-plugins/bt-linux-panel-plugin",
         "ref": "main"
       },
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
@@ -81,7 +81,7 @@
         "linux-ops",
         "mcp"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/partme-bt-plugin@main/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@main/assets/official-logo.png",
       "strict": true
     }
   ]
