@@ -70,10 +70,10 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `full-sta
 
 | Plugin | ID | Version | Focus | Repository |
 |--------|----|:-------:|-------|------------|
-| 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.1 | Operate the Baota Linux panel via MCP | [partme-bt-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
-| 🔍 **Codeguard** | `codeguard` | 0.3.4 | Make AI-written code pass lint on the first try (multi-language rule sets) | [partme-codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
-| 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.1 | Design polished, editable ProcessOn diagrams (flowcharts / architecture / mind maps) | [partme-processon-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
-| 🎨 **Google Stitch Design** | `stitch-design` | 0.7.9 | Design and build with Google Stitch | [partme-stitch-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
+| 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.1 | Operate the Baota Linux panel via MCP | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
+| 🔍 **Codeguard** | `codeguard` | 0.3.4 | Make AI-written code pass lint on the first try (multi-language rule sets) | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.1 | Design polished, editable ProcessOn diagrams (flowcharts / architecture / mind maps) | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
+| 🎨 **Google Stitch Design** | `stitch-design` | 0.7.9 | Design and build with Google Stitch | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
 
 ---
 
