@@ -47,7 +47,7 @@ This repository is the plugin-side counterpart of [Full Stack Skills](https://gi
 ### Codex
 
 ```bash
-codex plugin marketplace add full-stack-plugins/full-stack-plugins
+codex plugin marketplace add partme-ai/full-stack-plugins
 codex plugin add bt-linux-panel@full-stack-plugins
 codex plugin add codeguard@full-stack-plugins
 codex plugin add processon-design@full-stack-plugins
@@ -56,12 +56,12 @@ codex plugin add stitch-design@full-stack-plugins
 
 ### ZCode
 
-Open Settings → Plugins → Create → Add plugin marketplace, enter `full-stack-plugins/full-stack-plugins`, then install from the personal marketplace section.
+Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-ai/full-stack-plugins`, then install from the personal marketplace section.
 
 ### Kimi Code CLI
 
 ```text
-/plugins marketplace https://raw.githubusercontent.com/full-stack-plugins/full-stack-plugins/main/kimi-marketplace.json
+/plugins marketplace https://raw.githubusercontent.com/partme-ai/full-stack-plugins/main/kimi-marketplace.json
 ```
 
 ---

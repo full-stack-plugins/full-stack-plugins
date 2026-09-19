@@ -47,7 +47,7 @@
 ### Codex
 
 ```bash
-codex plugin marketplace add full-stack-plugins/full-stack-plugins
+codex plugin marketplace add partme-ai/full-stack-plugins
 codex plugin add bt-linux-panel@full-stack-plugins
 codex plugin add codeguard@full-stack-plugins
 codex plugin add processon-design@full-stack-plugins
@@ -56,12 +56,12 @@ codex plugin add stitch-design@full-stack-plugins
 
 ### ZCode
 
-打开 设置 → 插件 → 创建 → 添加插件市场，输入 `full-stack-plugins/full-stack-plugins`，然后在个人市场分区中安装。
+打开 设置 → 插件 → 创建 → 添加插件市场，输入 `partme-ai/full-stack-plugins`，然后在个人市场分区中安装。
 
 ### Kimi Code CLI
 
 ```text
-/plugins marketplace https://raw.githubusercontent.com/full-stack-plugins/full-stack-plugins/main/kimi-marketplace.json
+/plugins marketplace https://raw.githubusercontent.com/partme-ai/full-stack-plugins/main/kimi-marketplace.json
 ```
 
 ---
