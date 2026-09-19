@@ -70,10 +70,10 @@ codex plugin add stitch-design@full-stack-plugins
 
 | 插件 | ID | 版本 | 定位 | 仓库 |
 |------|----|:----:|------|------|
-| 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.1 | 通过 MCP 运维宝塔 Linux 面板 | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) |
-| 🔍 **代码规范守卫** | `codeguard` | 0.3.4 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [partme-codeguard-plugin](https://github.com/partme-ai/partme-codeguard-plugin) |
-| 📊 **ProcessOn 图表** | `processon-design` | 0.2.1 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） | [partme-processon-plugin](https://github.com/partme-ai/partme-processon-plugin) |
-| 🎨 **Google Stitch 设计** | `stitch-design` | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 | [partme-stitch-plugin](https://github.com/partme-ai/partme-stitch-plugin) |
+| 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.1 | 通过 MCP 运维宝塔 Linux 面板 | [partme-bt-plugin](https://github.com/full-stack-plugins/partme-bt-plugin) |
+| 🔍 **代码规范守卫** | `codeguard` | 0.3.4 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [partme-codeguard-plugin](https://github.com/full-stack-plugins/partme-codeguard-plugin) |
+| 📊 **ProcessOn 图表** | `processon-design` | 0.2.1 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） | [partme-processon-plugin](https://github.com/full-stack-plugins/partme-processon-plugin) |
+| 🎨 **Google Stitch 设计** | `stitch-design` | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 | [partme-stitch-plugin](https://github.com/full-stack-plugins/partme-stitch-plugin) |
 
 ---
 

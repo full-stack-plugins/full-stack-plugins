@@ -8,7 +8,7 @@
     {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
-      "repository": "partme-ai/partme-stitch-plugin",
+      "repository": "full-stack-plugins/partme-stitch-plugin",
       "localDirectory": "partme-stitch-plugin",
       "version": "0.7.9",
       "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server.",
@@ -24,7 +24,7 @@
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
-      "repository": "partme-ai/partme-processon-plugin",
+      "repository": "full-stack-plugins/partme-processon-plugin",
       "localDirectory": "partme-processon-plugin",
       "version": "0.2.1",
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
@@ -40,7 +40,7 @@
     {
       "id": "codeguard",
       "displayName": "代码规范守卫",
-      "repository": "partme-ai/partme-codeguard-plugin",
+      "repository": "full-stack-plugins/partme-codeguard-plugin",
       "localDirectory": "partme-codeguard-plugin",
       "version": "0.3.4",
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
@@ -64,7 +64,7 @@
     {
       "id": "bt-linux-panel",
       "displayName": "宝塔 Linux 面板",
-      "repository": "partme-ai/partme-bt-plugin",
+      "repository": "full-stack-plugins/partme-bt-plugin",
       "localDirectory": "partme-bt-plugin",
       "version": "1.0.1",
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
