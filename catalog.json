@@ -1,0 +1,82 @@
+{
+  "name": "full-stack-plugins",
+  "displayName": "Full Stack 插件",
+  "description": "Full Stack plugin marketplace for Codex, ZCode, and Kimi Code: AI design tooling, diagramming, code quality, and server operations for the development process.",
+  "descriptionZhCn": "Full Stack 插件市场：面向 Codex、ZCode 与 Kimi Code 的研发过程插件——AI 设计工具、图表绘制、代码质量与服务器运维。",
+  "planningRepositories": [],
+  "plugins": [
+    {
+      "id": "stitch-design",
+      "displayName": "Google Stitch Design",
+      "repository": "partme-ai/partme-stitch-plugin",
+      "localDirectory": "partme-stitch-plugin",
+      "version": "0.7.9",
+      "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server.",
+      "shortDescription": "Design and build with Google Stitch",
+      "category": "Design Tools",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "stitch",
+        "design",
+        "design-to-code"
+      ]
+    },
+    {
+      "id": "processon-design",
+      "displayName": "ProcessOn Design",
+      "repository": "partme-ai/partme-processon-plugin",
+      "localDirectory": "partme-processon-plugin",
+      "version": "0.2.1",
+      "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+      "shortDescription": "Design polished, editable ProcessOn diagrams",
+      "category": "Design Tools",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "processon",
+        "diagram",
+        "mind-map"
+      ]
+    },
+    {
+      "id": "codeguard",
+      "displayName": "代码规范守卫",
+      "repository": "partme-ai/partme-codeguard-plugin",
+      "localDirectory": "partme-codeguard-plugin",
+      "version": "0.3.4",
+      "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
+      "shortDescription": "Make AI-written code pass lint on first try",
+      "category": "Developer Tools",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "lint",
+        "code-style",
+        "javadoc",
+        "checkstyle",
+        "clippy",
+        "golangci-lint",
+        "detekt",
+        "swiftlint",
+        "eslint",
+        "ruff",
+        "pre-commit"
+      ]
+    },
+    {
+      "id": "bt-linux-panel",
+      "displayName": "宝塔 Linux 面板",
+      "repository": "partme-ai/partme-bt-plugin",
+      "localDirectory": "partme-bt-plugin",
+      "version": "1.0.1",
+      "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+      "shortDescription": "Operate Baota Linux panel via MCP",
+      "category": "Productivity",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "baota",
+        "bt-panel",
+        "linux-ops",
+        "mcp"
+      ]
+    }
+  ]
+}

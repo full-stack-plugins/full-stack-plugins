@@ -1,0 +1,30 @@
+{
+  "version": "2",
+  "displayName": "Full Stack 插件",
+  "plugins": [
+    {
+      "id": "stitch-design",
+      "displayName": "Google Stitch Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-stitch-plugin"
+    },
+    {
+      "id": "processon-design",
+      "displayName": "ProcessOn Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-processon-plugin"
+    },
+    {
+      "id": "codeguard",
+      "displayName": "代码规范守卫",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-codeguard-plugin/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-codeguard-plugin"
+    },
+    {
+      "id": "bt-linux-panel",
+      "displayName": "宝塔 Linux 面板",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-bt-plugin"
+    }
+  ]
+}
