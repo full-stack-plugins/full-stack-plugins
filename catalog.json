@@ -79,11 +79,11 @@
       ]
     },
     {
-      "id": "flowgate",
+      "id": "flowguard",
       "displayName": "研发流程门禁",
-      "repository": "full-stack-plugins/flowgate-plugin",
-      "localDirectory": "flowgate-plugin",
-      "version": "0.1.0",
+      "repository": "full-stack-plugins/flowguard-plugin",
+      "localDirectory": "flowguard-plugin",
+      "version": "0.1.1",
       "description": "SDLC orchestration plugin with hard stage gates: a ten-stage pipeline (requirements, architecture, solution, test cases, HLD, LLD, coding standards, review, docs, release) across multiple features and modules.",
       "shortDescription": "研发流程门禁：十阶段 SDLC 硬门禁编排",
       "category": "Developer Tools",
