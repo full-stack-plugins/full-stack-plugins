@@ -71,7 +71,7 @@ codex plugin add stitch-design@full-stack-plugins
 | 插件 | ID | 版本 | 定位 | 仓库 |
 |------|----|:----:|------|------|
 | 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.1 | 通过 MCP 运维宝塔 Linux 面板 | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
-| 🔍 **代码规范守卫** | `codeguard` | 0.6.0 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 🔍 **代码规范守卫** | `codeguard` | 0.6.1 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
 | 📊 **ProcessOn 图表** | `processon-design` | 0.2.1 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
 | 🎨 **Google Stitch 设计** | `stitch-design` | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
 
