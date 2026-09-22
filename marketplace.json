@@ -89,13 +89,15 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/flowguard-plugin",
-        "ref": "v0.1.2"
+        "ref": "v0.2.0"
       },
-      "description": "SDLC orchestration plugin with hard stage gates: a ten-stage pipeline (requirements, architecture, solution, test cases, HLD, LLD, coding standards, review, docs, release) across multiple features and modules.",
-      "version": "0.1.2",
+      "description": "Agent-driven SDD governance for Codex, ZCode, Kimi and Claude: native Spec Kit/OpenSpec/Superpowers discovery, session-worktree task binding, evidence freshness and deterministic code/commit/release gates.",
+      "version": "0.2.0",
       "category": "Developer Tools",
       "tags": [
         "sdlc",
+        "sdd",
+        "agent-governance",
         "workflow",
         "requirements",
         "testing",
@@ -103,7 +105,7 @@
         "release",
         "gate"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/flowguard-plugin@v0.1.2/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/flowguard-plugin@v0.2.0/assets/official-logo.png",
       "strict": true
     }
   ]
