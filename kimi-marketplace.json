@@ -25,6 +25,12 @@
       "displayName": "宝塔 Linux 面板",
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.0.5/assets/official-logo.png",
       "source": "https://github.com/full-stack-plugins/bt-linux-panel-plugin/releases/tag/v1.0.5"
+    },
+    {
+      "id": "flowgate",
+      "displayName": "研发流程门禁",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/flowgate-plugin@v0.1.0/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/flowgate-plugin/releases/tag/v0.1.0"
     }
   ]
 }

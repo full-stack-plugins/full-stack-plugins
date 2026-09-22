@@ -83,6 +83,28 @@
       ],
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/bt-linux-panel-plugin@v1.0.5/assets/official-logo.png",
       "strict": true
+    },
+    {
+      "name": "flowgate",
+      "source": {
+        "source": "github",
+        "repo": "full-stack-plugins/flowgate-plugin",
+        "ref": "v0.1.0"
+      },
+      "description": "SDLC orchestration plugin with hard stage gates: a ten-stage pipeline (requirements, architecture, solution, test cases, HLD, LLD, coding standards, review, docs, release) across multiple features and modules.",
+      "version": "0.1.0",
+      "category": "Developer Tools",
+      "tags": [
+        "sdlc",
+        "workflow",
+        "requirements",
+        "testing",
+        "code-review",
+        "release",
+        "gate"
+      ],
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/flowgate-plugin@v0.1.0/assets/official-logo.png",
+      "strict": true
     }
   ]
 }
