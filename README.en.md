@@ -2,13 +2,13 @@
 
 # Full Stack Plugins
 
-**4 plugins. The full development process. One unified ecosystem.**
+**6 plugins. The full development process. One unified ecosystem.**
 
-*AI design tooling · Diagramming · Code quality · Server operations — production-grade, independently installable on Codex / ZCode / Kimi.*
+*AI design tooling · Diagramming · Code checks · Workflow governance · Server operations — independently installable on Codex / ZCode / Kimi.*
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
 [![Platforms](https://img.shields.io/badge/hosts-Codex%20%C2%B7%20ZCode%20%C2%B7%20Kimi-blue)](#install)
-[![Plugins](https://img.shields.io/badge/plugins-4-green)](#plugin-catalog)
+[![Plugins](https://img.shields.io/badge/plugins-6-green)](#plugin-catalog)
 
 [简体中文](./README.md)
 
@@ -25,7 +25,7 @@
 
 ## About
 
-**Full Stack Plugins** is the plugin marketplace for the software development process, covering AI design tooling, diagramming, code quality, and server operations, across the Codex, ZCode, and Kimi Code host platforms.
+**Full Stack Plugins** is the plugin marketplace for the software development process, covering AI design tooling, diagramming, executable code checks, semantic review, workflow governance, and server operations across Codex, ZCode, and Kimi Code.
 
 This repository is the plugin-side counterpart of [Full Stack Skills](https://github.com/partme-ai/full-stack-skills): the skills side captures domain knowledge ("how to think"), while the plugin side ships executable capability ("what you can do") — MCP tools, gate pipelines, and automated operations. Both follow the same domain layout within one ecosystem: Stitch pairs with stitch-skills, ProcessOn with processon-skills.
 
@@ -37,7 +37,9 @@ This repository is the plugin-side counterpart of [Full Stack Skills](https://gi
 |--------|---------|--------------------|
 | **AI design tooling** | UI design generation and frontend implementation | stitch-design |
 | **Diagramming** | Flowcharts, architecture diagrams, mind maps | processon-design |
-| **Code quality** | Making AI-written code pass lint on the first try | codeguard |
+| **Executable code checks** | Style, static analysis, builds, and tests | codeguard |
+| **Semantic code review** | Review staged changes for logic and security risks with user consent | codereview-plugin |
+| **Workflow governance** | SDD stages, evidence, and final commit gates | flowguard |
 | **Server operations** | Baota panel sites / databases / cron jobs | bt-linux-panel |
 
 ---
@@ -50,6 +52,8 @@ This repository is the plugin-side counterpart of [Full Stack Skills](https://gi
 codex plugin marketplace add partme-ai/full-stack-plugins
 codex plugin add bt-linux-panel@full-stack-plugins
 codex plugin add codeguard@full-stack-plugins
+codex plugin add codereview-plugin@full-stack-plugins
+codex plugin add flowguard@full-stack-plugins
 codex plugin add processon-design@full-stack-plugins
 codex plugin add stitch-design@full-stack-plugins
 ```
@@ -70,10 +74,14 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-a
 
 | Plugin | ID | Version | Focus | Repository |
 |--------|----|:-------:|-------|------------|
-| 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.1 | Operate the Baota Linux panel via MCP | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
-| 🔍 **Codeguard** | `codeguard` | 0.6.0 | Make AI-written code pass lint on the first try (multi-language rule sets) | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
-| 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.1 | Design polished, editable ProcessOn diagrams (flowcharts / architecture / mind maps) | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
-| 🎨 **Google Stitch Design** | `stitch-design` | 0.7.9 | Design and build with Google Stitch | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
+| 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.5 | Operate the Baota Linux panel via MCP | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
+| 🔍 **CodeGuard** | `codeguard` | 0.12.0 | Run style, static, build, and test checks | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 🧭 **CodeReview** | `codereview-plugin` | 0.1.0 | Provide consent-based semantic risk advice for staged commits | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
+| 🧱 **FlowGuard** | `flowguard` | 0.2.0 | Govern SDD stages, evidence, and commit gates | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) |
+| 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.5 | Design editable diagrams and mind maps | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
+| 🎨 **Google Stitch Design** | `stitch-design` | 0.8.2 | Design and build with Google Stitch | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
+
+CodeReview v0.1.0 has passed offline tests. Real OCR model execution and installation/loading in Codex, ZCode, and Kimi are still **UNVERIFIED**. Its findings are advisory and do not replace CodeGuard checks or FlowGuard decisions.
 
 ---
 

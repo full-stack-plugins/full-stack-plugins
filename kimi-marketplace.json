@@ -3,6 +3,12 @@
   "displayName": "Full Stack 插件",
   "plugins": [
     {
+      "id": "codereview-plugin",
+      "displayName": "CodeReview",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.1.0/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/codereview-plugin/releases/tag/v0.1.0"
+    },
+    {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@v0.8.2/assets/official-logo.png",

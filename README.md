@@ -2,13 +2,13 @@
 
 # Full Stack Plugins
 
-**4 个插件。研发全流程。一个统一生态。**
+**6 个插件。研发全流程。一个统一生态。**
 
-*AI 设计工具 · 图表绘制 · 代码质量 · 服务器运维 — 生产级品质，Codex / ZCode / Kimi 三平台独立安装。*
+*AI 设计工具 · 图表绘制 · 代码质量 · 流程治理 · 服务器运维 — 面向 Codex / ZCode / Kimi 独立安装。*
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
 [![Platforms](https://img.shields.io/badge/hosts-Codex%20%C2%B7%20ZCode%20%C2%B7%20Kimi-blue)](#-安装)
-[![Plugins](https://img.shields.io/badge/plugins-4-green)](#-插件目录)
+[![Plugins](https://img.shields.io/badge/plugins-6-green)](#-插件目录)
 
 [English](./README.en.md)
 
@@ -25,7 +25,7 @@
 
 ## 简介
 
-**Full Stack Plugins** 是面向研发过程的插件市场，覆盖 AI 设计工具、图表绘制、代码质量与服务器运维，面向 Codex、ZCode 与 Kimi Code 三个宿主平台。
+**Full Stack Plugins** 是面向研发过程的插件市场，覆盖 AI 设计工具、图表绘制、代码检查、语义审查、流程治理与服务器运维，面向 Codex、ZCode 与 Kimi Code 三个宿主平台。
 
 本仓库与技能侧的 [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) 对位：技能侧沉淀「怎么想」的领域知识（框架、架构、测试方法论），插件侧提供「能做到」的可执行能力（MCP 工具、门禁流水线、自动化运维）。两者按同一套领域划分共建同一个生态——Stitch 对应技能侧的 stitch-skills，ProcessOn 对应 processon-skills。
 
@@ -37,7 +37,9 @@
 |------|------|------------------|
 | **AI 设计工具** | UI 设计稿生成与前端落地 | stitch-design |
 | **图表绘制** | 流程图、架构图、思维导图 | processon-design |
-| **代码质量** | 让 AI 写的代码一次通过 lint 门禁 | codeguard |
+| **可执行代码检查** | 规范、静态分析、编译与测试证据 | codeguard |
+| **语义代码审查** | 用户授权后审查候选提交的逻辑与安全风险 | codereview-plugin |
+| **研发流程治理** | SDD 阶段、证据与提交门禁裁决 | flowguard |
 | **服务器运维** | 宝塔面板站点 / 数据库 / 计划任务 | bt-linux-panel |
 
 ---
@@ -50,6 +52,8 @@
 codex plugin marketplace add partme-ai/full-stack-plugins
 codex plugin add bt-linux-panel@full-stack-plugins
 codex plugin add codeguard@full-stack-plugins
+codex plugin add codereview-plugin@full-stack-plugins
+codex plugin add flowguard@full-stack-plugins
 codex plugin add processon-design@full-stack-plugins
 codex plugin add stitch-design@full-stack-plugins
 ```
@@ -70,10 +74,14 @@ codex plugin add stitch-design@full-stack-plugins
 
 | 插件 | ID | 版本 | 定位 | 仓库 |
 |------|----|:----:|------|------|
-| 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.1 | 通过 MCP 运维宝塔 Linux 面板 | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
-| 🔍 **代码规范守卫** | `codeguard` | 0.7.1 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
-| 📊 **ProcessOn 图表** | `processon-design` | 0.2.1 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
-| 🎨 **Google Stitch 设计** | `stitch-design` | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
+| 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.5 | 通过 MCP 运维宝塔 Linux 面板 | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
+| 🔍 **代码规范守卫** | `codeguard` | 0.12.0 | 规范、静态分析、编译与测试检查 | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 🧭 **CodeReview** | `codereview-plugin` | 0.1.0 | 用户授权后对暂存候选提交给出语义风险建议 | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
+| 🧱 **研发流程门禁** | `flowguard` | 0.2.0 | SDD 阶段、证据与提交门禁裁决 | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) |
+| 📊 **ProcessOn 图表** | `processon-design` | 0.2.5 | 生成可编辑的 ProcessOn 图表和思维导图 | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
+| 🎨 **Google Stitch 设计** | `stitch-design` | 0.8.2 | 基于 Google Stitch 的设计与前端搭建 | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
+
+CodeReview v0.1.0 已通过离线测试；真实 OCR 模型调用和 Codex、ZCode、Kimi 安装加载仍为 **UNVERIFIED**。它的报告是建议，不替代 CodeGuard 检查或 FlowGuard 裁决。
 
 ---
 
