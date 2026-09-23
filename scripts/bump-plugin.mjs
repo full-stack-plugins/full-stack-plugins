@@ -151,6 +151,20 @@ fs.writeFileSync(repositoryMarketplace, `${JSON.stringify(marketplace, null, 2)}
 const codexManifest = path.join(repoDir, ".codex-plugin/plugin.json");
 fs.writeFileSync(codexManifest, bumpCodex(fs.readFileSync(codexManifest, "utf8")));
 
+// 2b) README 版本形态同步：徽章、tag 链接、--ref、Current candidate 构建戳、裸版本号。
+// 历史锚（如 0.1.0+codex.<旧戳>）不含旧版本号，不会被误改。
+const escapedNew = newVersion.replace(/\./g, "\\.");
+const bumpReadme = (text) => {
+  let next = text.split(`v${oldVersion}`).join(`v${newVersion}`);
+  next = next.split(oldVersion).join(newVersion);
+  next = next.replace(new RegExp(`${escapedNew}\\+codex\\.\\d+`, "g"), `${newVersion}+codex.${today}`);
+  return next;
+};
+for (const name of ["README.md", "README.zh-CN.md"]) {
+  const file = path.join(repoDir, name);
+  if (fs.existsSync(file)) fs.writeFileSync(file, bumpReadme(fs.readFileSync(file, "utf8")));
+}
+
 // 3) 重新生成三平台清单 + 全量校验
 const pluginFilter = `--plugin=${pluginId}`;
 execFileSync(process.execPath, [path.join(root, "scripts/sync-marketplaces.mjs"), "--write", pluginFilter], { stdio: "inherit" });

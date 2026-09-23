@@ -17,14 +17,14 @@
     {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@v0.8.4/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/stitch-design-plugin/releases/tag/v0.8.4"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/stitch-design-plugin@v0.8.5/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/stitch-design-plugin/releases/tag/v0.8.5"
     },
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.11/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/processon-design-plugin/releases/tag/v0.2.11"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.12/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/processon-design-plugin/releases/tag/v0.2.12"
     },
     {
       "id": "codeguard",

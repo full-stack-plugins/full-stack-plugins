@@ -37,7 +37,7 @@ const codex = {
       ref: releaseRef(plugin)
     },
     policy: { installation: "AVAILABLE", authentication: "ON_USE" },
-    category: plugin.category,
+    category: plugin.codexCategory ?? plugin.category,
     version: plugin.version,
     description: plugin.description,
     icon: rawLogo(plugin),
@@ -239,6 +239,7 @@ for (let index = 0; index < catalog.plugins.length; index += 1) {
       const immutableLogoPrefix = `https://cdn.jsdelivr.net/gh/${plugin.repository}@v${plugin.version}/`;
       if (!entry.icon?.startsWith(immutableLogoPrefix)) errors.push(`${plugin.id}: repository marketplace icon is not release-pinned`);
       if (!entry.interface?.logo?.startsWith(immutableLogoPrefix)) errors.push(`${plugin.id}: repository marketplace logo is not release-pinned`);
+      if (entry.category !== (plugin.codexCategory ?? plugin.category)) errors.push(`${plugin.id}: repository marketplace category is ${entry.category}`);
       if (entry.interface?.displayName !== plugin.displayName) errors.push(`${plugin.id}: repository marketplace displayName differs`);
       if (entry.interface?.shortDescription !== plugin.shortDescription) errors.push(`${plugin.id}: repository marketplace shortDescription differs`);
       if (repositoryMarketplace.interface?.displayName !== plugin.displayName) errors.push(`${plugin.id}: marketplace displayName differs`);
