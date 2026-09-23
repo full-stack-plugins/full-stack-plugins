@@ -84,10 +84,10 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/codeguard-plugin",
-        "ref": "v0.14.12"
+        "ref": "v0.14.13"
       },
       "description": "Evidence-backed code checks and Git content gates for AI assistants, with Maven/Gradle module impact analysis. Save hooks provide feedback; unverified checks are explicit.",
-      "version": "0.14.12",
+      "version": "0.14.13",
       "category": "Developer Tools",
       "tags": [
         "lint",
@@ -102,7 +102,7 @@
         "ruff",
         "pre-commit"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@v0.14.12/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@v0.14.13/assets/official-logo.png",
       "strict": true
     },
     {
