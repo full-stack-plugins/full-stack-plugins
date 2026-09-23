@@ -75,7 +75,7 @@ codex plugin add stitch-design@full-stack-plugins
 | 插件 | ID | 版本 | 定位 | 仓库 |
 |------|----|:----:|------|------|
 | 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.5 | 通过 MCP 运维宝塔 Linux 面板 | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
-| 🔍 **代码规范守卫** | `codeguard` | 0.14.5 | 规范、静态分析、编译与测试检查 | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 🔍 **代码规范守卫** | `codeguard` | 0.14.6 | 规范、静态分析、编译与测试检查 | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
 | 🧭 **CodeReview** | `codereview-plugin` | 0.2.0 | 用户授权后对暂存候选提交给出语义风险建议 | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
 | 🧱 **研发流程门禁** | `flowguard` | 0.2.0 | SDD 阶段、证据与提交门禁裁决 | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) |
 | 📊 **ProcessOn 图表** | `processon-design` | 0.2.5 | 生成可编辑的 ProcessOn 图表和思维导图 | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
