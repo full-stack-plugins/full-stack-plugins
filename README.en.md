@@ -75,7 +75,7 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-a
 | Plugin | ID | Version | Focus | Repository |
 |--------|----|:-------:|-------|------------|
 | 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.5 | Operate the Baota Linux panel via MCP | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
-| 🔍 **CodeGuard** | `codeguard` | 0.14.13 | Run style, static, build, and test checks | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
+| 🔍 **CodeGuard** | `codeguard` | 0.14.14 | Run style, static, build, and test checks | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
 | 🧭 **CodeReview** | `codereview-plugin` | 0.2.1 | Provide consent-based semantic risk advice for staged commits | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
 | 🧱 **FlowGuard** | `flowguard` | 0.3.0 | Agent-driven ten-stage SDD docs and evidence gates | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) |
 | 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.5 | Design editable diagrams and mind maps | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
