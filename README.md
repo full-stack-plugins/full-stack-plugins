@@ -76,12 +76,12 @@ codex plugin add stitch-design@full-stack-plugins
 |------|----|:----:|------|------|
 | 🛡️ **宝塔 Linux 面板** | `bt-linux-panel` | 1.0.5 | 通过 MCP 运维宝塔 Linux 面板 | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
 | 🔍 **代码规范守卫** | `codeguard` | 0.12.0 | 规范、静态分析、编译与测试检查 | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
-| 🧭 **CodeReview** | `codereview-plugin` | 0.1.0 | 用户授权后对暂存候选提交给出语义风险建议 | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
+| 🧭 **CodeReview** | `codereview-plugin` | 0.2.0 | 用户授权后对暂存候选提交给出语义风险建议 | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
 | 🧱 **研发流程门禁** | `flowguard` | 0.2.0 | SDD 阶段、证据与提交门禁裁决 | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) |
 | 📊 **ProcessOn 图表** | `processon-design` | 0.2.5 | 生成可编辑的 ProcessOn 图表和思维导图 | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
 | 🎨 **Google Stitch 设计** | `stitch-design` | 0.8.2 | 基于 Google Stitch 的设计与前端搭建 | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
 
-CodeReview v0.1.0 已通过离线测试；真实 OCR 模型调用和 Codex、ZCode、Kimi 安装加载仍为 **UNVERIFIED**。它的报告是建议，不替代 CodeGuard 检查或 FlowGuard 裁决。
+CodeReview v0.2.0 分发 8 个技能（官方 OCR 2 个、独立 `codereview-skills` 5 个、本地 harness 1 个），已通过离线测试；真实 OCR 模型调用和 Codex、ZCode、Kimi 安装加载仍为 **UNVERIFIED**。它的报告是建议，不替代 CodeGuard 检查或 FlowGuard 裁决。
 
 ---
 

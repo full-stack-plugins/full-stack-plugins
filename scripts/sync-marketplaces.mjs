@@ -215,6 +215,7 @@ for (let index = 0; index < catalog.plugins.length; index += 1) {
   if (previous && previous.displayName.localeCompare(plugin.displayName, "en", { sensitivity: "base" }) > 0) {
     errors.push(`catalog order is not alphabetical: ${previous.displayName} before ${plugin.displayName}`);
   }
+  if (remotePluginIds.size > 0 && !remotePluginIds.has(plugin.id)) continue;
 
   const repo = path.join(workspace, plugin.localDirectory);
   const logo = path.join(repo, plugin.logo);
@@ -313,4 +314,5 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`${mode === "write" ? "Synchronized" : "Validated"} ${catalog.plugins.length} installable plugins and ${(catalog.planningRepositories ?? []).length} planning repository for Codex, ZCode, and Kimi.`);
+const selectedCount = remotePluginIds.size > 0 ? remotePluginIds.size : catalog.plugins.length;
+console.log(`${mode === "write" ? "Synchronized" : "Validated"} ${selectedCount} installable plugins and ${(catalog.planningRepositories ?? []).length} planning repository for Codex, ZCode, and Kimi.`);
