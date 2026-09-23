@@ -78,7 +78,7 @@
       "displayName": "代码规范守卫",
       "repository": "full-stack-plugins/codeguard-plugin",
       "localDirectory": "codeguard-plugin",
-      "version": "0.14.14",
+      "version": "0.14.15",
       "description": "Evidence-backed code checks and Git content gates for AI assistants, with Maven/Gradle module impact analysis. Save hooks provide feedback; unverified checks are explicit.",
       "shortDescription": "Trustworthy code checks and Java impact analysis",
       "category": "Developer Tools",
