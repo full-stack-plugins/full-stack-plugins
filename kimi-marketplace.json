@@ -23,8 +23,8 @@
     {
       "id": "codeguard",
       "displayName": "代码规范守卫",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@v0.14.7/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/codeguard-plugin/releases/tag/v0.14.7"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@v0.14.8/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/codeguard-plugin/releases/tag/v0.14.8"
     },
     {
       "id": "bt-linux-panel",
