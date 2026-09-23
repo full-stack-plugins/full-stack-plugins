@@ -76,12 +76,12 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-a
 |--------|----|:-------:|-------|------------|
 | 🛡️ **Baota Linux Panel** | `bt-linux-panel` | 1.0.5 | Operate the Baota Linux panel via MCP | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) |
 | 🔍 **CodeGuard** | `codeguard` | 0.12.0 | Run style, static, build, and test checks | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) |
-| 🧭 **CodeReview** | `codereview-plugin` | 0.1.0 | Provide consent-based semantic risk advice for staged commits | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
+| 🧭 **CodeReview** | `codereview-plugin` | 0.2.0 | Provide consent-based semantic risk advice for staged commits | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) |
 | 🧱 **FlowGuard** | `flowguard` | 0.2.0 | Govern SDD stages, evidence, and commit gates | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) |
 | 📊 **ProcessOn Diagrams** | `processon-design` | 0.2.5 | Design editable diagrams and mind maps | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) |
 | 🎨 **Google Stitch Design** | `stitch-design` | 0.8.2 | Design and build with Google Stitch | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) |
 
-CodeReview v0.1.0 has passed offline tests. Real OCR model execution and installation/loading in Codex, ZCode, and Kimi are still **UNVERIFIED**. Its findings are advisory and do not replace CodeGuard checks or FlowGuard decisions.
+CodeReview v0.2.0 distributes 8 skills (2 upstream OCR, 5 independent `codereview-skills`, 1 local harness) and has passed offline tests. Real OCR model execution and installation/loading in Codex, ZCode, and Kimi are still **UNVERIFIED**. Its findings are advisory and do not replace CodeGuard checks or FlowGuard decisions.
 
 ---
 

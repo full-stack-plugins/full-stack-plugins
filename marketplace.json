@@ -8,10 +8,10 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/codereview-plugin",
-        "ref": "v0.1.0"
+        "ref": "v0.2.0"
       },
       "description": "Consent-based semantic review of staged commits using Open Code Review delegation or a configured OCR model; findings remain advisory.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Developer Tools",
       "tags": [
         "code-review",
@@ -20,7 +20,7 @@
         "consent",
         "ocr"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.1.0/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.2.0/assets/official-logo.png",
       "strict": true
     },
     {
@@ -64,10 +64,10 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/codeguard-plugin",
-        "ref": "v0.13.0"
+        "ref": "v0.14.0"
       },
       "description": "Evidence-backed code checks and Git content gates for AI assistants, with Maven/Gradle module impact analysis. Save hooks provide feedback; unverified checks are explicit.",
-      "version": "0.13.0",
+      "version": "0.14.0",
       "category": "Developer Tools",
       "tags": [
         "lint",
@@ -82,7 +82,7 @@
         "ruff",
         "pre-commit"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@v0.13.0/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codeguard-plugin@v0.14.0/assets/official-logo.png",
       "strict": true
     },
     {
