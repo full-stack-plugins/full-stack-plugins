@@ -129,10 +129,10 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/flowguard-plugin",
-        "ref": "v0.4.0"
+        "ref": "v0.4.1"
       },
       "description": "Agent-driven SDD governance for Codex, ZCode, Kimi and Claude: native Spec Kit/OpenSpec/Superpowers discovery, session-worktree task binding, evidence freshness and deterministic code/commit/release gates.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "category": "Developer Tools",
       "tags": [
         "sdlc",
@@ -145,7 +145,7 @@
         "release",
         "gate"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/flowguard-plugin@v0.4.0/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/flowguard-plugin@v0.4.1/assets/official-logo.png",
       "strict": true
     }
   ]
