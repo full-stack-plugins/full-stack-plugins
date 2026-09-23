@@ -23,8 +23,8 @@
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.9/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/processon-design-plugin/releases/tag/v0.2.9"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.10/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/processon-design-plugin/releases/tag/v0.2.10"
     },
     {
       "id": "codeguard",

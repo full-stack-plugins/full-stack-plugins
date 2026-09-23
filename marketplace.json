@@ -66,17 +66,17 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/processon-design-plugin",
-        "ref": "v0.2.9"
+        "ref": "v0.2.10"
       },
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
-      "version": "0.2.9",
+      "version": "0.2.10",
       "category": "Design Tools",
       "tags": [
         "processon",
         "diagram",
         "mind-map"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.9/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.10/assets/official-logo.png",
       "strict": true
     },
     {
