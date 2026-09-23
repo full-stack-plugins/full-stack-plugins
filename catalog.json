@@ -62,7 +62,7 @@
       "displayName": "ProcessOn Design",
       "repository": "full-stack-plugins/processon-design-plugin",
       "localDirectory": "processon-design-plugin",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
       "shortDescription": "Design polished, editable ProcessOn diagrams",
       "category": "Design Tools",
