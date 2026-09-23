@@ -8,10 +8,10 @@
       "source": {
         "source": "github",
         "repo": "full-stack-plugins/codereview-plugin",
-        "ref": "v0.2.0"
+        "ref": "v0.2.1"
       },
       "description": "Consent-based semantic review of staged commits using Open Code Review delegation or a configured OCR model; findings remain advisory.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Developer Tools",
       "tags": [
         "code-review",
@@ -20,7 +20,7 @@
         "consent",
         "ocr"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.2.0/assets/official-logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.2.1/assets/official-logo.png",
       "strict": true
     },
     {

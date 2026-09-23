@@ -10,7 +10,7 @@
       "displayName": "CodeReview",
       "repository": "full-stack-plugins/codereview-plugin",
       "localDirectory": "codereview-plugin",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Consent-based semantic review of staged commits using Open Code Review delegation or a configured OCR model; findings remain advisory.",
       "shortDescription": "Review staged commits with explicit consent",
       "category": "Developer Tools",
