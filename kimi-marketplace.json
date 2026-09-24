@@ -11,8 +11,8 @@
     {
       "id": "codereview-plugin",
       "displayName": "CodeReview",
-      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.2.2/assets/official-logo.png",
-      "source": "https://github.com/full-stack-plugins/codereview-plugin/releases/tag/v0.2.2"
+      "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/codereview-plugin@v0.3.0/assets/official-logo.png",
+      "source": "https://github.com/full-stack-plugins/codereview-plugin/releases/tag/v0.3.0"
     },
     {
       "id": "stitch-design",
